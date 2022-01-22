@@ -1,41 +1,116 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
+  <meta charset="UTF-8">
+  <title>Brio website</title>
 </head>
-
 <body>
+<!--table for 2 column-->
+<table cellspacing="20">
+  <tr>
+    <!--td for image-->
+    <td><img src="/img/imgcop.png" alt="flower pic"></td>
+    <!--td for personal data-->
+    <td><h1>Brian Ndickers</h1>
+      <em>I am a <strong><a href="https://www.youtube.com/">web developer</a></strong> and i love eating </em>
+      <p> i started my web career in highschool, but i started gaining more interest in univesity </p></td>
+  </tr>
+</table>
+<hr noshade="" size="3">
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- start book and journals-->
+<h3>Jounals and Books</h3>
+<ul>
+  <li>Html beginner to advanced</li>
+  <li>CSS and JS beautifying</li>
+</ul>
+<hr size="3" noshade="">
+<!--end book jounals-->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!--start hobbies-->
+<h3>Hobbies</h3>
+<ol>
+  <li>football</li>
+  <li>programming</li>
+  <li>video games</li>
+</ol>
+<hr size="3" noshade="">
+<!--end hobbies-->
+
+<!--start work experience part-->
+<h3>Work Experience</h3>
+
+<!-- create table -->
+<table cellpadding="10">
+  <thead>
+  <tr>
+    <th>Duration</th>
+    <th>Project</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>2019</td>
+    <td>Emobilis project</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>Megdine catering poject</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>Some bootcamp project</td>
+  </tr>
+  </tbody>
+</table>
+<hr size="3" noshade="">
+<!--end table-->
+
+<!-- skills part-->
+<h3>Skills</h3>
+
+<!--creating main table that has 2 table inside-->
+<table cellspacing="10">
+  <tr>
+    <td><!--table created in first td-->
+      <table>
+        <tr>
+          <th>Language</th>
+          <th>Rating</th>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Html/Css</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td><!--end table in first td-->
+
+
+
+    <!-- second table in second td-->
+    <td>
+      <table>
+        <tr>
+          <th>Language</th>
+          <th>Rating</th>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td><!-- end of second table-->
+  </tr>
+</table>
+<!--end main table-->
+<strong><a href="contact.html">Contact</a></strong>
 </body>
-
 </html>
